@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python .claude/hooks/validate_brain_file.py"
+            "command": "sh -c 'if command -v python3 >/dev/null 2>&1; then python3 .claude/hooks/validate_brain_file.py; else python .claude/hooks/validate_brain_file.py; fi'"
           }
         ]
       }
