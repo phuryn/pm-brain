@@ -28,6 +28,10 @@ Thumbs.db
 .env
 .env.local
 
+# Node (examples/*)
+node_modules/
+examples/**/dist/
+
 # Claude Code runtime artifacts (per-machine, never shared)
 .claude/scheduled_tasks.lock
 .claude/projects/

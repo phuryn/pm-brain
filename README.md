@@ -139,6 +139,14 @@ python tests/harness/run_scenario.py tests/scenarios/01-b2b-churn
 
 PM Brain is the memory layer. [PM Skills](https://github.com/phuryn/pm-skills) are the workflow modules: how to run a JTBD interview, how to score with RICE, how to design an experiment. They compose. The skill is how to do the work once. The brain is what you know across all the times you did it.
 
+## Examples
+
+Optional sidecars live under [`examples/`](./examples/). They are not part of the skill install or eval harness.
+
+| Example | What it does |
+|---|---|
+| [`novita-sandbox`](./examples/novita-sandbox/) | Minimal Novita Code Interpreter demo (create sandbox → `runCode` → list files → kill). Needs `NOVITA_API_KEY`. |
+
 ## Contributing
 
 Issues first, please. The skill is the load-bearing artifact for every install, so changes need discussion before code. The flow:

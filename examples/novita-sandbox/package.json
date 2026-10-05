@@ -1,0 +1,20 @@
+{
+  "name": "pm-brain-novita-sandbox-example",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Minimal Novita Code Interpreter sandbox demo (create → runCode → list files → kill)",
+  "scripts": {
+    "start": "tsx index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "novita-sandbox": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
